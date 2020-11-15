@@ -1,0 +1,26 @@
+name: LatinSKB-Addon
+version: 1.1.0
+depend: [Vault]
+main: net.latinplay.skb.Main
+author: MrGonci
+
+commands:
+  skbreload:
+    description: reload the config
+  recivirlibro:
+    description: give basic book
+  lskb:
+    description: Main command
+  fly:
+    description: Fly Command
+  gm:
+    description: Gamemode Command
+  gamemode:
+    description: Gamemode Command
+
+#permissions:
+  #  skyblock.gamemode:
+  #skyblock.fly:
+  # latinstaff.items:
+  # latinstaff.reload:
+  #
