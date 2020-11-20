@@ -17,10 +17,4 @@ public class SPlayerJoinEvent implements Listener, SKAddon {
             p.performCommand("recivirlibro");
         }
     }
-    @EventHandler
-    public void PlayerJoinAntiGeis(PlayerJoinEvent e){
-        if(e.getPlayer().getName().equalsIgnoreCase("Establecido ")){
-            e.getPlayer().kickPlayer("&cMaricones Extremos no aceptados en skyblock.");
-        }
-    }
 }
